@@ -20,5 +20,5 @@ jobs:
       with:       
        username: ${{ secrets.DOCKER_HUB_USERNAME }} 
        password:  ${{ secrets.DOCKER_HUB_PASSWORD }}
-       repository: hakii30/fti      
+       repository: hakii30/fti1      
        tags: ${{github.run_number}}
